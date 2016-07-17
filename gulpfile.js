@@ -8,3 +8,7 @@ gulp.task('build', function() {
         .pipe(source('app.js'))
         .pipe(gulp.dest('./dist/'));
 });
+
+gulp.task('watch', function () {
+    gulp.watch('src/**/*.js', ['build']);
+});
