@@ -11,7 +11,7 @@ var Sidebar = (function (_super) {
         _super.apply(this, arguments);
     }
     Sidebar.prototype.render = function () {
-        return (React.createElement("aside", {className: "main-sidebar"}, React.createElement("section", {className: "sidebar"}, React.createElement("ul", {className: "sidebar-menu"}, React.createElement("li", {className: "header"}, "MAIN NAVIGATION"), React.createElement("li", {"ng-className": "active"}, React.createElement("a", null, React.createElement("i", {className: "fa fa-dashboard"}), " ", React.createElement("span", null, "Dashboard"))), React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "fa fa-files-o"}), React.createElement("span", null, "Feature List")))))));
+        return (React.createElement("aside", {className: "main-sidebar"}, React.createElement("section", {className: "sidebar"}, React.createElement("ul", {className: "sidebar-menu"}, React.createElement("li", {className: "header"}, "MAIN NAVIGATION"), React.createElement("li", {className: "active"}, React.createElement("a", null, React.createElement("i", {className: "fa fa-dashboard"}), " ", React.createElement("span", null, "Dashboard"))), React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "fa fa-files-o"}), React.createElement("span", null, "Feature List")))))));
     };
     return Sidebar;
 }(React.Component));
